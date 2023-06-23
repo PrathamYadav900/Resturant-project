@@ -1,0 +1,68 @@
+.SpecialMenu{
+    background-color: black;
+}
+
+
+.SpecialMenu_title{
+    text-align: center;
+    margin: 2rem 0;
+}
+.SpecialMenu-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.SpecialMenu__Image img{
+    width: 344px;
+    height: 509px;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem
+}
+.SpecialMenu__Wine-content{
+color: #fff;
+}
+.SpecialMenu__Wine-content-title{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+text-align: center;
+letter-spacing: 0.04em;
+margin-bottom: 2rem;
+
+}
+.SpecialMenu__Cocktails-content{
+color: #fff;
+}
+
+.SpecialMenu__Cocktails-content-title{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+text-align: center;
+letter-spacing: 0.04em;
+margin-bottom: 2rem;
+
+}
+
+#SpecialMenu-button{
+    display: flex;
+    justify-content: center;
+}
+
+@media  screen and (max-width :650px){
+      .SpecialMenu{
+        display: flex;
+        flex-direction: column;
+      }
+      .SpecialMenu-menu{
+        display: flex;
+        flex-direction: column;
+      }
+      .SpecialMenu__Image{
+        display: flex;
+        justify-content: center;
+      }
+}

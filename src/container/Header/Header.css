@@ -1,0 +1,93 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+  background-color: black;
+  flex-wrap: wrap;
+}
+.Header-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Header-contentmain{
+    max-width: 500px;
+}
+.Header-subtitle{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 130%;
+
+/* identical to box height, or 30px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* FFFFFF */
+color: #FFFFFF;
+}
+
+.Header-title{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 84px;
+line-height: 130%;
+
+/* or 117px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+margin-bottom: 20px;
+/* DCCA87 */
+color: #DCCA87;
+}
+
+.Header-description{    /* Body 16px Regular */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 175%;
+margin-bottom: 30px;
+/* or 28px */
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+color: #AAAAAA;
+}
+
+.Header-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 8px 32px;
+    width: 157px;
+height: 44px;
+
+background: #DCCA87;
+}
+
+.Header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Header-image img{
+   width: 605px;
+height: 600px;
+}
+
+@media screen and (max-width:650px) {
+.Header-image img{
+    width: 338px;
+    height: 300px;
+    padding:10px 10px 0px 0px;
+}
+}

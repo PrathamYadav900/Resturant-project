@@ -1,0 +1,137 @@
+.About_Us{
+    display: flex;
+    flex-direction: row;
+}
+
+.About_Us-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 5;
+}
+.About_Us-content h2{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 130%;
+color: #DCCA87;
+/* or 83px */
+text-align: right;
+}
+.About_Us-content p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 175%;
+
+/* or 28px */
+text-align: right;
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+color: #AAAAAA;
+}
+.About_Us-content button{
+    background: #DCCA87;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+width: 141px;
+height: 44px;
+margin-top: 30px;
+}
+
+
+.Our_History-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 5;
+}
+.About_Us-image img{
+    width: 103px;
+    height: 704px;
+    z-index: 5;
+}
+.Our_History-content h2{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 130%;
+
+/* or 83px */
+letter-spacing: 0.03em;
+
+/* DCCA87 */
+color: #DCCA87;
+
+
+}
+.About_Us{
+    position: relative;
+}
+.AboutUs-overlay{
+  position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutUs-overlay img{
+    width: 391px;
+    height: 415px;
+    z-index:0;
+
+} 
+.Our_History-content p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 175%;
+color: #AAAAAA;
+
+}
+.About_Us-image{
+    z-index: 5;
+}
+
+.Our_History-content button{
+background: #DCCA87;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+width: 141px;
+height: 44px;
+margin-top: 30px;
+}
+
+ @media screen and (max-width:650px) {
+    .About_Us{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    .Our_History-content{
+        display: flex;
+    }
+    .About_Us-content{
+       display: flex;
+     
+    }
+    .About_Us-image{
+        display: flex;
+        justify-content: center;
+    }
+ }

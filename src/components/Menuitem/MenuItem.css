@@ -1,0 +1,59 @@
+.menuitem{
+    width: 100%;
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menuitem-head{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.menuitem{
+    margin-bottom: 2.5rem;
+}
+
+.menuitem-tags p{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.menuitem-price p{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+
+/* identical to box height, or 30px */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* FFFFFF */
+color: #FFFFFF;
+
+
+}
+
+.menuitem-tags p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 175%;
+
+/* identical to box height, or 28px */
+text-align: center;
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+color:#FFFFFF;
+
+
+}
