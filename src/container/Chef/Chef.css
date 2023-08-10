@@ -90,3 +90,15 @@ color: #AAAAAA;
     /* or 28px */
     letter-spacing: 0.04em;
 }
+
+@media screen and (max-width:650px) {
+    .Chef{
+        display: flex;
+        flex-direction: column;
+    }
+    .Chef-image img{
+        width: 345px;
+        height: 478px;
+        margin: .5rem;
+    }
+    }
